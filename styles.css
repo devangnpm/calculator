@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: cornsilk;
+  }
+  
+  #container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50vh;
+    width: 50vh;
+    gap: 50px;
+    border: 5px solid black;
+    border-radius: 10px;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  #container,
+  .row {
+    gap: 16px;
+  }
+  
+  .row,
+  #display,
+  button {
+    flex: 1;
+  }
+  
+  #zero {
+    flex: 2.5;
+  }
+  
+  #display,
+  button {
+    font-size: 1.5em;
+  }
+  
+  button,
+  #display {
+    border: 2px solid;
+    border-radius: 5px;
+  }
+  
+  .number,
+  #point {
+    background-color: dodgerblue;
+    border-color: black;
+  }
+  
+  .operator,
+  #clear,
+  #undo {
+    background-color: yellowgreen;
+    border-color: black;
+  }
+  
+  #equal {
+    background-color: lightcoral;
+    border-color:black;
+  }
+  
+  #display {
+    border-color: black;
+    background-color: honeydew;
+  }
+
+  #clear {
+    background-color: crimson;
+  }
+
+  #undo {
+    background-color: lightsalmon;
+  }
