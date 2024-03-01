@@ -13,8 +13,9 @@ body {
     height: 50vh;
     width: 50vh;
     gap: 50px;
-    border: 5px solid black;
+    border: 10px solid black;
     border-radius: 10px;
+    background-color:black;
   }
   
   .row {
@@ -49,7 +50,7 @@ body {
   
   .number,
   #point {
-    background-color: dodgerblue;
+    background-color: deepskyblue;
     border-color: black;
   }
   
