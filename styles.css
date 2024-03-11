@@ -2,8 +2,17 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     background-color: cornsilk;
+  }
+
+  h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    color: firebrick;
   }
   
   #container {
@@ -16,6 +25,7 @@ body {
     border: 10px solid black;
     border-radius: 10px;
     background-color:black;
+    margin-right: -50px;
   }
   
   .row {

@@ -98,9 +98,16 @@ btnDivision.addEventListener('click', () => {
 
 const btnUndo = document.querySelector('button[name="undo"]');
 btnUndo.addEventListener('click', () => {
-    console.log('Button clicked');
+    console.log('Button clicked Undo');
     const display = document.querySelector('#display');
     display.value = display.value.slice(0, -1);
+});
+
+const btnClear = document.querySelector('button[name="clear"]');
+btnClear.addEventListener('click', () => {
+    console.log('Button clicked AC');
+    const display = document.querySelector('#display');
+    display.value = '';
 });
 
 const btnEqual = document.querySelector('button[name="equal"]');
@@ -111,7 +118,7 @@ btnEqual.addEventListener('click', () => {
     const [num1, operator, num2] = equation.split(' ');
     const result = operate(operator, parseFloat(num1), parseFloat(num2));
     console.log(operate(operator,num1,num2));
-    display.value = result
+    display.value = result;
 });
 
 
